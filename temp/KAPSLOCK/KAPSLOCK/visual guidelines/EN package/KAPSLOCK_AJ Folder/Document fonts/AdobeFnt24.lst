@@ -1,0 +1,63 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/elf/Desktop/KAPSLOCK_AJ Folder/Document fonts/AdobeFnt24.lst
+FileLength:1182
+FileModTime:792882767
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Fraunces-9ptBlack
+FamilyName:Fraunces
+StyleName:Black
+MenuName:Fraunces
+FamilyPrefix:Fraunces
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Fraunces 9pt Black
+WritingScript:Roman
+OutlineFileName:/Users/elf/Desktop/KAPSLOCK_AJ Folder/Document fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:TrueTypeVariableFont
+FileLength:357632
+FileModTime:779216928
+NameArray:0,Win,1,Fraunces
+NameArray:0,Win,16,Fraunces
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Manrope-ExtraLight
+FamilyName:Manrope
+StyleName:ExtraLight
+MenuName:Manrope ExtraLight
+FamilyPrefix:Manrope
+StyleBits:0
+WeightClass:200
+WidthClass:5
+AngleClass:0
+FullName:Manrope ExtraLight
+WritingScript:Roman
+OutlineFileName:/Users/elf/Desktop/KAPSLOCK_AJ Folder/Document fonts/Manrope-VariableFont_wght.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:TrueTypeVariableFont
+FileLength:167160
+FileModTime:778723714
+NameArray:0,Win,1,Manrope ExtraLight
+NameArray:0,Win,16,Manrope
+%EndFont
+
