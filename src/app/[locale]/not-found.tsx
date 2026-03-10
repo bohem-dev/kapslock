@@ -14,7 +14,7 @@ export default async function NotFound() {
     <main className="min-h-screen bg-brand-graphite flex flex-col items-center justify-center px-6 text-center select-none">
 
       {/* Kangaroo */}
-      <div className="mb-8 opacity-80">
+      <div className="mb-8 opacity-80 pointer-events-none">
         <Image
           src="/logo/kapson-sand.svg"
           alt="Boris the kangaroo"

@@ -1,9 +1,89 @@
 {
-  "nav": { "home": "Home" },
-  "hero": { "h1": "Locking pouches for mobile phones for primary and secondary schools" },
+  "nav": {
+    "home": "Home",
+    "process": "How it works",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "h1": "Locking pouches for mobile phones for primary and secondary schools",
+    "cta": "Get in touch"
+  },
+  "process": {
+    "title": "How Kapslock works",
+    "steps": [
+      {
+        "label": "1. Insert",
+        "description": "The student places their phone into the Kapslock pouch before class begins."
+      },
+      {
+        "label": "2. Lock",
+        "description": "The pouch locks with a simple motion using a hidden magnetic mechanism."
+      },
+      {
+        "label": "3. Unlock as needed",
+        "description": "During the day, pouches can only be unlocked using a special magnet, according to school rules."
+      }
+    ]
+  },
+  "about": {
+    "title": "Meet Kapslock",
+    "p1": "Kapslock is a system of locking pouches and magnetic unlocking elements designed for primary and secondary schools. It allows mobile phone use to be restricted during lessons without needing to take devices away from students.",
+    "p2": "The solution is simple, safe and flexible. Phones stay with students at all times but are locked in the pouch and can only be unlocked using a special magnet.",
+    "p3": "The system is also more sustainable. Responsibility for devices remains with the students, not the school. Schools no longer gather large numbers of phones in one place, minimising the risk of loss and the associated liability for staff.",
+    "bullets": [
+      "Supports focus during lessons",
+      "Clear rules without conflict",
+      "Choose the mode that suits your school"
+    ]
+  },
+  "products": {
+    "title": "Kapslock Products",
+    "subtitle": "A selection of available variants. We will prepare a detailed offer and recommended set tailored to you.",
+    "items": [
+      { "name": "Kapslock pouch", "description": "The core element" },
+      { "name": "Kapslock fixed magnet", "description": "Installed at school" },
+      { "name": "Kapslock portable magnet", "description": "Mobility" },
+      { "name": "Portable magnet with lock", "description": "For every teacher" }
+    ],
+    "modesTitle": "Recommended setups",
+    "modesSubtitle": "Choose the approach based on your school's regime and the level of flexibility for teachers.",
+    "modes": [
+      {
+        "label": "1) Standard mode",
+        "description": "The school orders pouches and 1–2 fixed magnets, typically installed at the building entrance."
+      },
+      {
+        "label": "2) Flexible mode",
+        "description": "The school orders pouches, 1–2 fixed magnets, and several portable magnets (e.g. one per staff room)."
+      },
+      {
+        "label": "3) Maximum freedom for teachers",
+        "description": "The school orders pouches, 1–2 fixed magnets, and a portable magnet for every teacher — so they can unlock whenever the lesson requires it."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Interested in introducing Kapslock at your school? Get in touch and we'll prepare a tailored offer.",
+    "contactTitle": "Contact us",
+    "company": "Kapslock s.r.o.",
+    "address": "Ulice 123, 100 00 Praha",
+    "ico": "Company no.: 00000000",
+    "email": "info@kapslock.cz",
+    "phone": "+420 000 000 000",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "school": "School / organisation",
+      "message": "Message",
+      "submit": "Send"
+    },
+    "copyright": "All rights reserved"
+  },
   "notFound": {
     "heading": "Lost in the pouch",
-    "subtext": "This page doesn't exist — but Kapson will help you find your way back.",
+    "subtext": "This page doesn't exist — but Boris will help you find your way back.",
     "cta": "Back to home"
   }
 }

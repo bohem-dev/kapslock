@@ -1,6 +1,86 @@
 {
-  "nav": { "home": "Domů" },
-  "hero": { "h1": "Zamykací obaly na mobilní telefony pro základní a střední školy" },
+  "nav": {
+    "home": "Domů",
+    "process": "Jak to funguje",
+    "about": "O Kapslock",
+    "products": "Produkty",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "h1": "Zamykací obaly na mobilní telefony pro základní a střední školy",
+    "cta": "Kontaktujte nás"
+  },
+  "process": {
+    "title": "Jak Kapslock funguje",
+    "steps": [
+      {
+        "label": "1. Vložit",
+        "description": "Student vloží svůj telefon do speciálního obalu Kapslock ještě před začátkem výuky."
+      },
+      {
+        "label": "2. Uzamknout",
+        "description": "Obal se jednoduchým pohybem uzamkne pomocí skrytého magnetického mechanismu."
+      },
+      {
+        "label": "3. Odemykat dle potřeby",
+        "description": "Během dne lze obaly odemknout pouze pomocí speciálního magnetu, a to podle pravidel školy."
+      }
+    ]
+  },
+  "about": {
+    "title": "Seznamte se s Kapslock",
+    "p1": "Kapslock je systém uzamykacích obalů a magnetických odemykacích prvků navržený pro základní a střední školy. Umožňuje omezit používání mobilních telefonů během výuky, aniž by bylo nutné zařízení studentům odebírat.",
+    "p2": "Řešení je jednoduché, bezpečné a flexibilní. Telefony zůstávají po celou dobu u žáků, ale jsou uzamčeny v obalu a lze je odemknout pouze pomocí speciálního magnetu.",
+    "p3": "Systém je zároveň udržitelnější. Odpovědnost za zařízení zůstává u samotných žáků, nikoli u školy. Škola tak neshromažďuje velké množství telefonů na jednom místě, čímž se minimalizuje riziko ztráty a s tím spojená odpovědnost pracovníků školy.",
+    "bullets": [
+      "Podpora soustředění během výuky",
+      "Jasně nastavená pravidla bez konfliktů",
+      "Možnost zvolit režim podle potřeb školy"
+    ]
+  },
+  "products": {
+    "title": "Produkty Kapslock",
+    "subtitle": "Ukázka dostupných variant. Detailní nabídku a doporučení sestavy vám připravíme na míru.",
+    "items": [
+      { "name": "Kapslock obal", "description": "Základní prvek" },
+      { "name": "Kapslock fixní magnet", "description": "Instalace ve škole" },
+      { "name": "Kapslock přenosný magnet", "description": "Mobilita" },
+      { "name": "Přenosný magnet se zajištěním", "description": "Pro každého pedagoga" }
+    ],
+    "modesTitle": "Doporučené sestavy použití",
+    "modesSubtitle": "Vyberte přístup podle režimu školy a míry flexibility pro pedagogy.",
+    "modes": [
+      {
+        "label": "1) Standardní režim",
+        "description": "Škola odebere obaly a 1–2 fixní magnety, které se zavádí nejčastěji u vstupu do budovy."
+      },
+      {
+        "label": "2) Flexibilní režim",
+        "description": "Škola odebere obaly, 1–2 fixní magnety a několik přenosných magnetů (např. 1 přenosný magnet na kabinet)."
+      },
+      {
+        "label": "3) Maximální volnost pro pedagogy",
+        "description": "Škola odebere obaly, 1–2 fixní magnety a pro každého pedagoga přenosný magnet – učitelé mohou odemykat kdykoli to výuka vyžaduje."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Zajímá vás zavedení Kapslocku ve vaší škole? Napište nám a připravíme nabídku na míru.",
+    "contactTitle": "Kontaktujte nás",
+    "company": "Kapslock s.r.o.",
+    "address": "Ulice 123, 100 00 Praha",
+    "ico": "IČO: 00000000",
+    "email": "info@kapslock.cz",
+    "phone": "+420 000 000 000",
+    "fields": {
+      "name": "Jméno a příjmení",
+      "email": "E-mail",
+      "school": "Škola / organizace",
+      "message": "Zpráva",
+      "submit": "Odeslat"
+    },
+    "copyright": "Všechna práva vyhrazena"
+  },
   "notFound": {
     "heading": "Ztracen ve vaku",
     "subtext": "Tato stránka neexistuje — ale Boris tě bezpečně navede zpět.",

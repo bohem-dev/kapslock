@@ -1,27 +1,45 @@
-export default function Navbar() {
+import { getTranslations } from 'next-intl/server'
+import LocaleSwitcher from './LocaleSwitcher'
+
+export default async function Navbar() {
+  const t = await getTranslations('nav')
+
+  const links = [
+    { label: t('process'), href: '#process' },
+    { label: t('about'), href: '#about' },
+    { label: t('products'), href: '#products' },
+    { label: t('contact'), href: '#contact' },
+  ]
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-brand-graphite/90 backdrop-blur-sm border-b border-brand-light/10">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-        <span className="font-sans text-brand-blue tracking-[0.3em] uppercase text-xs">
-          KAPSLOCK
-        </span>
 
-        <nav className="hidden md:flex gap-8">
-          {[
-            { label: 'Jak to funguje', href: '#process' },
-            { label: 'O Kapslock', href: '#about' },
-            { label: 'Produkty', href: '#products' },
-            { label: 'Kontakt', href: '#contact' },
-          ].map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="font-sans text-xs tracking-[0.15em] uppercase text-brand-light/70 hover:text-brand-light transition-colors duration-200"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+        <a
+          href="#"
+          className="font-sans text-brand-blue tracking-[0.3em] uppercase text-xs"
+        >
+          KAPSLOCK
+        </a>
+
+        <div className="hidden md:flex items-center gap-8">
+          <nav className="flex gap-8">
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="font-sans text-xs tracking-[0.15em] uppercase text-brand-light/70 hover:text-brand-light transition-colors duration-200"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+
+          <div className="w-px h-4 bg-brand-light/20" />
+
+          <LocaleSwitcher />
+        </div>
+
       </div>
     </header>
   )

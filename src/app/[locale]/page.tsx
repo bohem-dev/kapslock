@@ -3,10 +3,10 @@ import Hero from '@/components/hero/Hero'
 import Process from '@/components/process/Process'
 import About from '@/components/about/About'
 import Products from '@/components/products/Products'
+import Navbar from '@/components/layout/Navbar'
+import Footer from '@/components/layout/Footer'
 
-type Props = {
-  params: Promise<{ locale: string }>
-}
+type Props = { params: Promise<{ locale: string }> }
 
 export default async function Home({ params }: Props) {
   const { locale } = await params
@@ -15,10 +15,12 @@ export default async function Home({ params }: Props) {
 
   return (
     <main>
-      <Hero headline={t('h1')} />
+      <Navbar />
+      <Hero headline={t('h1')} cta={t('cta')} />
       <Process />
       <About />
       <Products />
+      <Footer />
     </main>
   )
 }

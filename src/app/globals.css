@@ -10,3 +10,7 @@
   --color-brand-sand: #C8B7A6;
   --color-brand-graphite: #1E2326;
 }
+
+html {
+  scroll-behavior: smooth;
+}

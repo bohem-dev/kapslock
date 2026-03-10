@@ -5,9 +5,11 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
-import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
 import '../globals.css'
+
+import SmoothScroll from '@/components/layout/SmoothScroll'
+
+
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -52,10 +54,9 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={`${manrope.variable} ${fraunces.variable} font-sans antialiased`}>
+        <SmoothScroll />
         <NextIntlClientProvider>
-          <Navbar />
           {children}
-          <Footer />
         </NextIntlClientProvider>
         <GoogleAnalytics gaId="G-WBHXJQDE7M" />
       </body>
