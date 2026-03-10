@@ -1,8 +1,9 @@
 {
-  "nav": {
-    "home": "Home"
-  },
-  "hero": {
-    "h1": "Locking pouches for mobile phones for primary and secondary schools"
+  "nav": { "home": "Home" },
+  "hero": { "h1": "Locking pouches for mobile phones for primary and secondary schools" },
+  "notFound": {
+    "heading": "Lost in the pouch",
+    "subtext": "This page doesn't exist — but Kapson will help you find your way back.",
+    "cta": "Back to home"
   }
 }

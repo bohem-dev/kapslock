@@ -1,8 +1,9 @@
 {
-  "nav": {
-    "home": "Domů"
-  },
-  "hero": {
-    "h1": "Zamykací obaly na mobilní telefony pro základní a střední školy"
+  "nav": { "home": "Domů" },
+  "hero": { "h1": "Zamykací obaly na mobilní telefony pro základní a střední školy" },
+  "notFound": {
+    "heading": "Ztraceni ve vaku",
+    "subtext": "Tato stránka neexistuje — ale Boris tě bezpečně navede zpět.",
+    "cta": "Zpět domů"
   }
 }
