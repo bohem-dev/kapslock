@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Manrope, Fraunces } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -21,7 +22,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: 'KAPSLOCK',
   description: 'Zamykací obaly na mobilní telefony...',
-  manifest: '/site.webmanifest',   // ← add this
+  manifest: '/site.webmanifest',
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -56,6 +57,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <NextIntlClientProvider>
           {children}
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId="G-WBHXJQDE7M" />
       </body>
     </html>
   )

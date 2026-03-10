@@ -28,7 +28,7 @@ export default async function NotFound() {
         404
       </p>
 
-      <h1 className="font-accent text-brand-white text-5xl md:text-5xl font-normal leading-tight max-w-md mb-4">
+      <h1 className="font-accent text-brand-white text-4xl md:text-6xl lg:text-7xl font-normal leading-tight max-w mb-4">
         {t('heading')}
       </h1>
 
