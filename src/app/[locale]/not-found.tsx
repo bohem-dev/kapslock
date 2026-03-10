@@ -11,24 +11,24 @@ export default async function NotFound() {
   const t = await getTranslations({ locale, namespace: 'notFound' })
 
   return (
-    <main className="min-h-screen bg-brand-graphite flex flex-col items-center justify-center px-6 text-center">
+    <main className="min-h-screen bg-brand-graphite flex flex-col items-center justify-center px-6 text-center select-none">
 
       {/* Kangaroo */}
       <div className="mb-8 opacity-80">
         <Image
           src="/logo/kapson-sand.svg"
-          alt="Kapson the kangaroo"
+          alt="Boris the kangaroo"
           width={120}
           height={120}
           priority
         />
       </div>
 
-      <p className="font-sans text-brand-sand tracking-[0.4em] uppercase text-xs mb-4">
+      <p className="font-sans text-brand-sand tracking-[0.4em] uppercase text-s mb-4">
         404
       </p>
 
-      <h1 className="font-accent text-brand-white text-4xl md:text-5xl font-normal leading-tight max-w-md mb-4">
+      <h1 className="font-accent text-brand-white text-5xl md:text-5xl font-normal leading-tight max-w-md mb-4">
         {t('heading')}
       </h1>
 
