@@ -5,6 +5,8 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+import Navbar from '@/components/layout/Navbar'
+import Footer from '@/components/layout/Footer'
 import '../globals.css'
 
 const manrope = Manrope({
@@ -33,7 +35,6 @@ export const metadata: Metadata = {
   },
 }
 
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
 }
@@ -45,17 +46,16 @@ type Props = {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params
-  if (!hasLocale(routing.locales, locale)) {
-    notFound()
-  }
-
+  if (!hasLocale(routing.locales, locale)) notFound()
   setRequestLocale(locale)
 
   return (
     <html lang={locale}>
       <body className={`${manrope.variable} ${fraunces.variable} font-sans antialiased`}>
         <NextIntlClientProvider>
+          <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
         <GoogleAnalytics gaId="G-WBHXJQDE7M" />
       </body>
