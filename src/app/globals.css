@@ -2,15 +2,15 @@
 
 @theme {
   --font-sans: var(--font-manrope);
-  --font-accent: var(--font-fraunces);
+  --font-serif: var(--font-fraunces);
 
-  --color-brand-white: #F4F6F5;
-  --color-brand-blue: #9FB6C3;
-  --color-brand-blue-dk: #6F8793;
-  --color-brand-sand: #C8B7A6;
+  --color-brand-white:    #F4F6F5;
+  --color-brand-blue:     #9FB6C3;
+  --color-brand-blue-dk:  #6F8793;
+  --color-brand-sand:     #C8B7A6;
   --color-brand-graphite: #1E2326;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */

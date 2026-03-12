@@ -15,12 +15,15 @@ export default async function Products() {
   const modes = t.raw('modes') as Array<{ label: string; description: string }>
 
   return (
-    <section id="products" className="bg-brand-graphite text-brand-light px-6 py-16 md:py-20">
+    <section id="products" className="bg-brand-graphite text-brand-white px-6 py-16 md:py-24">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-4xl mb-4">{t('title')}</h2>
-        <p className="text-sm md:text-base text-brand-light/80 mb-10 max-w-2xl">{t('subtitle')}</p>
+        <span className="font-sans text-[11px] tracking-[0.25em] uppercase text-brand-blue mb-4 block">
+          Produkty
+        </span>
+        <h2 className="font-serif text-3xl md:text-4xl mb-3">{t('title')}</h2>
+        <p className="text-sm md:text-base text-brand-white/55 mb-12 max-w-2xl">{t('subtitle')}</p>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => (
             <ProductCard key={item.name} name={item.name} description={item.description} imageSrc={images[i]} />
           ))}

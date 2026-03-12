@@ -18,9 +18,7 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <div className="relative flex items-center bg-brand-light/10 p-0.5 w-[72px]">
-
-      {/* Pill — slides left/right purely by CSS */}
+    <div className="relative flex items-center bg-brand-graphite/8 p-0.5 w-[72px]">
       <div
         className="absolute top-0.5 bottom-0.5 w-[32px] bg-brand-sand"
         style={{
@@ -28,29 +26,20 @@ export default function LocaleSwitcher() {
           transition: 'left 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
         }}
       />
-
       <button
         onClick={() => switchLocale('cs')}
-        className={`
-          relative z-10 w-[36px] py-1 font-sans text-xs tracking-[0.15em] uppercase
-          transition-colors duration-300
-          ${optimistic === 'cs' ? 'text-brand-graphite' : 'text-brand-light/50 hover:text-brand-light/80'}
-        `}
+        className={`relative z-10 w-[36px] py-1 font-sans text-xs tracking-[0.15em] uppercase transition-colors duration-300
+          ${optimistic === 'cs' ? 'text-brand-graphite' : 'text-brand-graphite/40 hover:text-brand-graphite/70'}`}
       >
         CS
       </button>
-
       <button
         onClick={() => switchLocale('en')}
-        className={`
-          relative z-10 w-[36px] py-1 font-sans text-xs tracking-[0.15em] uppercase
-          transition-colors duration-300
-          ${optimistic === 'en' ? 'text-brand-graphite' : 'text-brand-light/50 hover:text-brand-light/80'}
-        `}
+        className={`relative z-10 w-[36px] py-1 font-sans text-xs tracking-[0.15em] uppercase transition-colors duration-300
+          ${optimistic === 'en' ? 'text-brand-graphite' : 'text-brand-graphite/40 hover:text-brand-graphite/70'}`}
       >
         EN
       </button>
-
     </div>
   )
 }

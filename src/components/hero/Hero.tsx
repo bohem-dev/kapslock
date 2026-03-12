@@ -12,7 +12,7 @@ export default function Hero({ headline, cta }: Props) {
       <div className="w-12 h-px bg-brand-sand mb-8" />
       <a
         href="#contact"
-        className="inline-block font-sans text-brand-graphite bg-brand-sand px-8 py-3 text-sm tracking-widest uppercase hover:bg-brand-blue transition-colors duration-300"
+        className="inline-block font-sans bg-brand-sand text-brand-graphite px-8 py-3 text-sm tracking-widest uppercase hover:bg-brand-blue-dk hover:text-brand-white transition-colors duration-300"
       >
         {cta}
       </a>

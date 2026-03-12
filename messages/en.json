@@ -36,7 +36,9 @@
       "Supports focus during lessons",
       "Clear rules without conflict",
       "Choose the mode that suits your school"
-    ]
+    ],
+    "msmtCalloutTitle": "Kapslock is aligned with the MŠMT Methodology (2026)",
+    "msmtCalloutSub": "The Ministry of Education recommends magnetically lockable pouches \u2192 Learn more"
   },
   "products": {
     "title": "Kapslock Products",
@@ -52,17 +54,42 @@
     "modes": [
       {
         "label": "1) Standard mode",
-        "description": "The school orders pouches and 1–2 fixed magnets, typically installed at the building entrance."
+        "description": "The school orders pouches and 1\u20132 fixed magnets, typically installed at the building entrance."
       },
       {
         "label": "2) Flexible mode",
-        "description": "The school orders pouches, 1–2 fixed magnets, and several portable magnets (e.g. one per staff room)."
+        "description": "The school orders pouches, 1\u20132 fixed magnets, and several portable magnets (e.g. one per staff room)."
       },
       {
         "label": "3) Maximum freedom for teachers",
-        "description": "The school orders pouches, 1–2 fixed magnets, and a portable magnet for every teacher — so they can unlock whenever the lesson requires it."
+        "description": "The school orders pouches, 1\u20132 fixed magnets, and a portable magnet for every teacher \u2014 so they can unlock whenever the lesson requires it."
       }
     ]
+  },
+  "legislation": {
+    "heroTitle": "Kapslock aligned with the MŠMT Methodology",
+    "heroSubtitle": "In February 2026, the Czech Ministry of Education published a methodology on regulating mobile phones in schools. Kapslock is one of the recommended solutions.",
+    "ctaPage": "View methodology",
+    "ctaPdf": "Download PDF",
+    "section1Label": "Context",
+    "section1Title": "What does the MŠMT Methodology (2026) say?",
+    "section1p1": "In February 2026, the Czech Ministry of Education, Youth and Sports published guidelines for setting rules on the use of mobile phones and other electronic devices in schools, recommending specific ways for schools to regulate mobile phone use during lessons.",
+    "section1p2": "The methodology gives schools an overview of possible approaches \u2014 from internal rules to physical solutions such as lockable pouches. Magnetically lockable pouches are among the specifically described solutions.",
+    "section2Label": "Recommended solution",
+    "section2Title": "Magnetically lockable pouches as a recommended solution",
+    "quote": "The student places their device into a magnetically lockable pouch upon entering school, which can only be unlocked at an unlocking station upon leaving school.",
+    "quoteSource": "MŠMT Methodology, 2026",
+    "section2body": "The methodology states that this system allows schools to effectively limit disruptive phone use during lessons, while the phone stays with the student at all times and the school does not need to manage central collection or storage.",
+    "section3Label": "The Kapslock advantage",
+    "section3Title": "How Kapslock addresses one of the noted drawbacks",
+    "drawbackLabel": "Drawback noted in the methodology",
+    "drawbackText": "The methodology notes one potential drawback: the phone cannot be immediately used during lessons \u2014 for example for educational apps or other learning activities.",
+    "solutionLabel": "The Kapslock solution",
+    "solutionText": "Kapslock solves this with portable magnetic unlockers for teachers. Any teacher can open the pouch at any time and use the device for educational apps or other learning activities. Schools gain control while preserving full flexibility.",
+    "ctaSectionTitle": "Interested in Kapslock for your school?",
+    "ctaSectionBody": "We will prepare a tailored offer. Just get in touch.",
+    "ctaSectionCta": "Contact us",
+    "backHome": "Back to homepage"
   },
   "footer": {
     "tagline": "Interested in introducing Kapslock at your school? Get in touch and we'll prepare a tailored offer.",
@@ -83,7 +110,7 @@
   },
   "notFound": {
     "heading": "Lost in the pouch",
-    "subtext": "This page doesn't exist — but Boris will help you find your way back.",
+    "subtext": "This page doesn't exist \u2014 but Boris will help you find your way back.",
     "cta": "Back to home"
   }
 }

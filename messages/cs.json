@@ -36,7 +36,9 @@
       "Podpora soustředění během výuky",
       "Jasně nastavená pravidla bez konfliktů",
       "Možnost zvolit režim podle potřeb školy"
-    ]
+    ],
+    "msmtCalloutTitle": "Kapslock je v souladu s metodikou MŠMT (2026)",
+    "msmtCalloutSub": "Ministerstvo školství doporučuje magneticky uzamykatelná pouzdra \u2192 Zjistit více"
   },
   "products": {
     "title": "Produkty Kapslock",
@@ -52,17 +54,42 @@
     "modes": [
       {
         "label": "1) Standardní režim",
-        "description": "Škola odebere obaly a 1–2 fixní magnety, které se zavádí nejčastěji u vstupu do budovy."
+        "description": "Škola odebere obaly a 1\u20132 fixní magnety, které se zavádí nejčastěji u vstupu do budovy."
       },
       {
         "label": "2) Flexibilní režim",
-        "description": "Škola odebere obaly, 1–2 fixní magnety a několik přenosných magnetů (např. 1 přenosný magnet na kabinet)."
+        "description": "Škola odebere obaly, 1\u20132 fixní magnety a několik přenosných magnetů (např. 1 přenosný magnet na kabinet)."
       },
       {
         "label": "3) Maximální volnost pro pedagogy",
-        "description": "Škola odebere obaly, 1–2 fixní magnety a pro každého pedagoga přenosný magnet – učitelé mohou odemykat kdykoli to výuka vyžaduje."
+        "description": "Škola odebere obaly, 1\u20132 fixní magnety a pro každého pedagoga přenosný magnet \u2013 učitelé mohou odemykat kdykoli to výuka vyžaduje."
       }
     ]
+  },
+  "legislation": {
+    "heroTitle": "Kapslock v souladu s metodikou MŠMT",
+    "heroSubtitle": "V únoru 2026 vydalo Ministerstvo školství metodiku k regulaci mobilních telefonů ve školách. Kapslock je jedním z doporučených řešení.",
+    "ctaPage": "Zobrazit metodiku",
+    "ctaPdf": "Stáhnout PDF",
+    "section1Label": "Kontext",
+    "section1Title": "Co říká metodika MŠMT (2026)?",
+    "section1p1": "V únoru 2026 vydalo Ministerstvo školství, mládeže a tělovýchovy metodiku k nastavování pravidel používání mobilních telefonů a jiných elektronických zařízení ve školách, která školám doporučuje konkrétní způsoby regulace mobilních telefonů během výuky.",
+    "section1p2": "Metodika poskytuje školám přehled možných přístupů k omezení mobilních telefonů \u2014 od interních pravidel až po fyzická řešení jako uzamykatelná pouzdra. Jedním z konkrétně popsaných řešení jsou magneticky uzamykatelná pouzdra.",
+    "section2Label": "Doporučené řešení",
+    "section2Title": "Magneticky uzamykatelná pouzdra jako doporučené řešení",
+    "quote": "Žák vloží zařízení při příchodu do školy do magneticky uzamykatelného pouzdra, které lze odemknout pouze na odemykacím stanovišti při odchodu ze školy.",
+    "quoteSource": "Metodika MŠMT, 2026",
+    "section2body": "Metodika uvádí, že tento systém umožňuje školám účinně omezit rušivé používání mobilních telefonů během výuky, přičemž telefon zůstává po celou dobu u žáka a škola nemusí řešit jejich centrální vybírání ani skladování.",
+    "section3Label": "Kapslock řešení",
+    "section3Title": "Jak Kapslock překonává jednu ze zmíněných nevýhod",
+    "drawbackLabel": "Nevýhoda zmíněná v metodice",
+    "drawbackText": "Metodika jako jednu z možných nevýhod zmiňuje, že telefon nelze okamžitě využít při výuce \u2014 například pro vzdělávací aplikace nebo jiné aktivity.",
+    "solutionLabel": "Řešení Kapslock",
+    "solutionText": "Kapslock tuto situaci řeší pomocí přenosných magnetických odemykačů pro učitele. Každý pedagog může pouzdro kdykoliv otevřít a mobilní zařízení využít pro výukové aplikace nebo jiné vzdělávací aktivity. Škola tak získává kontrolu, ale zároveň zachovává flexibilitu.",
+    "ctaSectionTitle": "Zajímá vás Kapslock pro vaši školu?",
+    "ctaSectionBody": "Připravíme vám nabídku na míru. Stačí nám napsat.",
+    "ctaSectionCta": "Kontaktujte nás",
+    "backHome": "Zpět na web"
   },
   "footer": {
     "tagline": "Zajímá vás zavedení Kapslocku ve vaší škole? Napište nám a připravíme nabídku na míru.",
@@ -83,7 +110,7 @@
   },
   "notFound": {
     "heading": "Ztracen ve vaku",
-    "subtext": "Tato stránka neexistuje — ale Boris tě bezpečně navede zpět.",
+    "subtext": "Tato stránka neexistuje \u2014 ale Boris tě bezpečně navede zpět.",
     "cta": "Zpět domů"
   }
 }
