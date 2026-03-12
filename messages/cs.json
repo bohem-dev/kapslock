@@ -46,8 +46,7 @@
     "items": [
       { "name": "Kapslock obal", "description": "Základní prvek" },
       { "name": "Kapslock fixní magnet", "description": "Instalace ve škole" },
-      { "name": "Kapslock přenosný magnet", "description": "Mobilita" },
-      { "name": "Přenosný magnet se zajištěním", "description": "Pro každého pedagoga" }
+      { "name": "Kapslock přenosný magnet", "description": "Mobilita" }
     ],
     "modesTitle": "Doporučené sestavy použití",
     "modesSubtitle": "Vyberte přístup podle režimu školy a míry flexibility pro pedagogy.",

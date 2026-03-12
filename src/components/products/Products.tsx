@@ -3,10 +3,9 @@ import ProductCard from './ProductCard'
 import UsageModes from './UsageModes'
 
 const images = [
-  'https://static.wixstatic.com/media/1762f3_40e39016a21f47249d2ced1ddef1b56f~mv2.png',
-  'https://static.wixstatic.com/media/1762f3_6f6fb67dec9a42a99463e7c3069380d1~mv2.png',
-  'https://static.wixstatic.com/media/1762f3_868f4c99f37f4411ba2be89da1c71cd1~mv2.png',
-  'https://static.wixstatic.com/media/1762f3_ab393eaeedff4a41a5fc837621f59bf9~mv2.png',
+  'images/product/prod-kaps-obal.png',
+  'images/product/prod-magnet-fix.png',
+  'images/product/prod-magnet-prenosni.png'
 ]
 
 export default async function Products() {
@@ -23,7 +22,7 @@ export default async function Products() {
         <h2 className="font-serif text-3xl md:text-4xl mb-3">{t('title')}</h2>
         <p className="text-sm md:text-base text-brand-white/55 mb-12 max-w-2xl">{t('subtitle')}</p>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => (
             <ProductCard key={item.name} name={item.name} description={item.description} imageSrc={images[i]} />
           ))}

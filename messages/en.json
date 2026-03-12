@@ -46,8 +46,7 @@
     "items": [
       { "name": "Kapslock pouch", "description": "The core element" },
       { "name": "Kapslock fixed magnet", "description": "Installed at school" },
-      { "name": "Kapslock portable magnet", "description": "Mobility" },
-      { "name": "Portable magnet with lock", "description": "For every teacher" }
+      { "name": "Kapslock portable magnet", "description": "Mobility" }
     ],
     "modesTitle": "Recommended setups",
     "modesSubtitle": "Choose the approach based on your school's regime and the level of flexibility for teachers.",

@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server'
+import Image from 'next/image'
 import LocaleSwitcher from './LocaleSwitcher'
 
 export default async function Navbar() {
@@ -15,11 +16,15 @@ export default async function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-brand-white/90 backdrop-blur-sm border-b border-brand-graphite/8">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
 
-        <a
-          href="#"
-          className="font-sans text-brand-graphite tracking-[0.3em] uppercase text-xs"
-        >
-          KAPSLOCK
+        <a href="#" className="flex items-center shrink-0">
+          <Image
+            src="/logo/kapslock-side-blue-dk.png"
+            alt="Kapslock"
+            width={110}
+            height={44}
+            className="object-contain"
+            priority
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -36,7 +41,6 @@ export default async function Navbar() {
           </nav>
 
           <div className="w-px h-4 bg-brand-graphite/15" />
-
           <LocaleSwitcher />
         </div>
 
