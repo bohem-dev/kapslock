@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Manrope, Fraunces } from 'next/font/google'
+import { Manrope, Fraunces, Hanken_Grotesk } from 'next/font/google'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { setRequestLocale } from 'next-intl/server'
@@ -22,6 +22,12 @@ const fraunces = Fraunces({
   variable: '--font-fraunces',
   weight: ['400'],
 })
+
+const hanken = Hanken_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-hanken',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+});
 
 export const metadata: Metadata = {
   title: 'KAPSLOCK',
@@ -53,7 +59,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <body className={`${manrope.variable} ${fraunces.variable} font-sans antialiased`}>
+      <body className={`${manrope.variable} ${fraunces.variable} ${hanken.variable} font-sans antialiased`}>
         <SmoothScroll />
         <NextIntlClientProvider>
           {children}

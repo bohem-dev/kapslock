@@ -5,7 +5,7 @@ export default async function LegislationHero() {
 
   return (
     <section className="min-h-[55vh] bg-brand-graphite flex flex-col items-center justify-center px-6 text-center pt-14">
-      <p className="font-sans text-brand-blue tracking-[0.3em] uppercase text-xs mb-6">
+      <p className="font-logo text-brand-white tracking-[0.3em] uppercase text-xs mb-6">
         KAPSLOCK
       </p>
       <div className="w-12 h-px bg-brand-sand mb-8" />

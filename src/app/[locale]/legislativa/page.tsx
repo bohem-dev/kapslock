@@ -1,8 +1,8 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server'
+import { setRequestLocale } from 'next-intl/server'
 import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
 import LegislationHero from '@/components/legislation/LegislationHero'
 import LegislationContent from '@/components/legislation/LegislationContent'
+import NavbarOtherContent from '@/components/layout/NavbarOtherContent'
 
 type Props = { params: Promise<{ locale: string }> }
 
@@ -15,7 +15,7 @@ export default async function LegislativaPage({ params }: Props) {
       <Navbar />
       <LegislationHero />
       <LegislationContent />
-      <Footer />
+      <NavbarOtherContent />
     </main>
   )
 }

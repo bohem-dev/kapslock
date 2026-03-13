@@ -9,7 +9,7 @@ export default async function About() {
     <section id="about" className="bg-brand-white text-brand-graphite px-6 py-16 md:py-24 border-t border-brand-graphite/8">
       <div className="max-w-4xl mx-auto">
         <span className="font-sans text-[11px] tracking-[0.25em] uppercase text-brand-blue-dk mb-4 block">
-          O Kapslock
+          {t('small-title')}
         </span>
         <h2 className="font-serif text-3xl md:text-4xl mb-10">{t('title')}</h2>
 
