@@ -1,11 +1,13 @@
 'use client'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
+
 
 export default function Footer() {
   const t = useTranslations('footer')
 
   return (
-    <footer id="contact" className="bg-brand-white text-brand-graphite px-6 py-16 md:py-20 border-t border-brand-graphite/8">
+    <footer id="contact" className="bg-brand-white text-brand-graphite px-6 py-16 md:py-20 border-t border-brand-graphite/8 relative">
       <div className="max-w-5xl mx-auto grid gap-12 md:grid-cols-2">
         <div>
           <span className="font-sans text-brand-graphite tracking-[0.3em] uppercase text-xs mb-6 block">
@@ -21,6 +23,24 @@ export default function Footer() {
             <p>{t('phone')}</p>
           </div>
         </div>
+        <div
+                aria-hidden
+                className="absolute pointer-events-none select-none hidden lg:block"
+                style={{
+                  top: '20%',
+                  right: '55%',
+                  width: '75vw',
+                  height: '75vw',
+                  opacity: 0.12,
+                }}
+              >
+                <Image
+                  src="/logo/kapson-sand.svg"
+                  alt=""
+                  fill
+                  className="object-contain"
+                />
+              </div>
 
         <form className="space-y-5">
           {(['name', 'email', 'school'] as const).map((field) => (
